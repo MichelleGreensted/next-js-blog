@@ -4,13 +4,13 @@ This is a Next.js project that uses Tailwind CSS styling. It fetches form and co
 
 This app currently:
 
-✅ Lists all resources (posts) on the home page
+✔️ Lists all resources (posts) on the home page
 
-✅ Displays a specific post in detail 
+✔️ Displays a specific post in detail 
 
-✅ Allows users to create a new post using a form (although the API can't actually be updated on the server, if the POST request has be successfully sent a message showing the data sent will be printed in the Developer Tools console)
+✔️ Allows users to create a new post using a form (although the API can't actually be updated on the server, if the POST request has be successfully sent a message showing the data sent will be printed in the Developer Tools console)
 
-✅ Allows users to edit existing posts using a form (although the API can't actually be updated on the server, if the PUT request has be successfully sent a message showing the data sent will be printed in the Developer Tools console)
+✔️ Allows users to edit existing posts using a form (although the API can't actually be updated on the server, if the PUT request has be successfully sent a message showing the data sent will be printed in the Developer Tools console)
 
 
 If you're curious to see the wireframes I used to conceptualise this project, you can view them [here](https://excalidraw.com/#json=qAZcNVxbTr-whRHYWFyDF,c3lm5KJB7Dz0uvOjdGmNVA) on Excalidraw.
