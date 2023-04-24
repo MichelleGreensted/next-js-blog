@@ -21,13 +21,15 @@ Given more time, I would like to:
 
 💡 Allow users to delete a form
 
+💡 Add Jest and Cypress testing
+
+💡 Add data validation to only accept post creation and edits with input values of a given length and type
+
 💡 Display a toast upon submission of a new or updated post that notifies users their post has been submitted
 
 💡 Integrate my existing code to create a reusable form component that can be used for both creating new posts and editing existing posts. (I would include reusable JSX where new posts would simply take in empty objects as the defaultValue properties of their input elements, and a parameter that would decide through conditional logic whether to make a POST or PUT request depending on whether the post was new or existing
 
 💡 Add and update my styling to increase accessibility for screen-readers by adding ARIA elements and more explicity naming of tags
-
-💡 Add data validation to only accept post creation and edits with input values of a given length and type
 
 ## This App Is Currently Deployed on Vercel! 🌏
 
