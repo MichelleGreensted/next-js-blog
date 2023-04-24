@@ -55,7 +55,7 @@ export default function CreateNewPost() {
                   placeholder="Post content here"
                   className="bg-sky-50 px-3 py-2 w-full rounded-lg shadow-sm focus:outline-none focus:bg-sky-50 bg-opacity-80 focus:bg-opacity-100"
                 />
-                <div className="flex justify-end gap-4">
+                <div className="flex justify-end gap-4 pt-4">
                   <button
                     type="reset"
                     className="font-serif bg-sky-50 px-4 py-2 rounded-lg shadow-sm hover:bg-sky-50 bg-opacity-80 hover:bg-opacity-100 hover:text-sky-700"
