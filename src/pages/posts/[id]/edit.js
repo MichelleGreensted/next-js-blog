@@ -38,27 +38,47 @@ export default function EditPost({ postData }) {
 
   return (
     <Layout>
-      <form method="post" onSubmit={handleSubmitAndRedirect}>
-        <h1>Edit post:</h1>
-        <input
-          type="text"
-          name="title"
-          placeholder="Title here"
-          defaultValue={postData.title}
-        />
-        <label>
-          <textarea
-            name="body"
-            rows={8}
-            placeholder="Post content here"
-            defaultValue={postData.body}
-          />
-        </label>
-        <div>
-          <button type="reset">Reset post</button>
-          <button type="submit">Submit</button>
-        </div>
-      </form>
+      <div className="h-screen flex justify-center p-20 overflow-auto">
+        <form
+          method="post"
+          onSubmit={handleSubmitAndRedirect}
+          className="w-3/5"
+        >
+          <div className="place-content-center grid gap-4 grid-cols-1">
+            <h1 className="text-white text-3xl font-serif">Edit post:</h1>
+            <input
+              type="text"
+              name="title"
+              placeholder="Title here"
+              defaultValue={postData.title}
+              className="bg-sky-50 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:bg-sky-50 bg-opacity-80 focus:bg-opacity-100"
+            />
+            <label>
+              <textarea
+                name="body"
+                rows={8}
+                placeholder="Post content here"
+                defaultValue={postData.body}
+                className="bg-sky-50 px-3 py-2 w-full rounded-lg shadow-sm focus:outline-none focus:bg-sky-50 bg-opacity-80 focus:bg-opacity-100"
+              />
+            </label>
+            <div className="flex justify-end gap-4">
+              <button
+                type="reset"
+                className="font-serif bg-sky-50 px-4 py-2 rounded-lg shadow-sm hover:bg-sky-50 bg-opacity-80 hover:bg-opacity-100 hover:text-sky-700"
+              >
+                Reset post
+              </button>
+              <button
+                type="submit"
+                className="font-serif bg-sky-50 px-4 py-2 rounded-lg shadow-sm hover:bg-sky-50 bg-opacity-80 hover:bg-opacity-100 hover:text-sky-700"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
     </Layout>
   );
 }
